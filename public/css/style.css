@@ -1,0 +1,290 @@
+*{
+    margin: 0;padding: 0; 
+       font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;font-size: 15px;
+  letter-spacing: .025px;
+  line-height: 18px;
+  box-sizing: border-box;
+  }
+  hr{
+      color: #6d6d6d;
+  }
+  img, button{
+      cursor: pointer;
+  }
+  section{
+    max-width: 1000px;
+    min-width: 320px;
+  }
+  body{
+
+  }
+  .container{
+    width: 100%;
+    max-width: 1000px;
+     min-width: 320px;
+    margin: 0 auto;
+  }
+ 
+  a{
+    text-align: center;
+    color: #6d6d6d;
+   font-size: 14px;
+   letter-spacing: .025px;
+   line-height: 18px;text-decoration: none;
+}
+ .storeNav{
+    position: sticky;
+    top: 0%;
+   display: flex;justify-content: space-between;align-items: center;
+   width: 100%;
+   /* margin: 0 auto; */
+   background: #f7f8f9;
+   max-width: 1200px;
+   z-index: 999999;
+   height: 40px;
+   padding: 5px;
+   font-size: 10px;
+   z-index: 1;
+ } 
+ .storeNav a{
+    margin: 20px; font-size: 12px;
+ }
+ .navDropD a{
+    color: #554f4f;font-size: 12px;
+ }
+ .navDropD a:hover{
+    color: #12aac2;
+ }
+ ul{
+   display: flex;
+  justify-content: space-between;align-items: center;
+}
+li{list-style: none;}
+.worldlogo{display: flex; justify-content: space-between;align-items: center;}
+.logup{
+  /* display: flex;justify-content: space-between;align-items: center; */
+}
+#mystore{
+    border: none; background: #f7f8f9;font-size: 11px;    color: #6d6d6d;
+
+}
+#serachbox{
+    border: 1px solid #ebd9d9; 
+    background-color: 1px solid #ebd9d9; 
+    outline: none;   letter-spacing: .12em;
+    font-size: 12px;
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+     width: 240px; 
+     height: 40px;    transition: width 1s;
+    position: relative;
+    z-index: 1003;
+    color: #262626;
+    padding: 5px;
+}
+.navmem{
+background-color: #f4faf8; text-align: center;font-size: 11px; border-top: 1px solid #d8f7ec;
+}
+#mem{
+    font-size: 13px;font-weight: 700;     width: 100%;
+padding: 5px;
+}
+.memlink a{
+    text-decoration: underline;font-family: "SofiaProRegular",sans-serif;
+    color: #196d79 !important;
+    text-decoration: underline;
+    border: none;
+    background: transparent;font-size: 12px;padding-left: 10px;
+}
+.logo img{
+    object-fit: cover;
+}
+.extraimg img{
+    max-width: 1000px;
+    min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;
+}
+.bodycnt{width: 100%;
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr);gap: 100px; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#home{
+    font-size: 10px;
+}
+#furtxt{
+    font-size: 12px;font-weight: 900;
+}
+.furnimenu{
+
+}
+.furnimenu ul{
+    display: block;
+}
+.furnimenu ul a{
+     color: #554f4f;font-size: 12px;line-height: 2.0;
+}
+.furnipro{
+
+}
+.furnilgimg{
+
+}
+.furnilgimg h1{
+    /* text-align: center; */
+    /* font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,"Times New Roman"; */
+    font-style: italic;
+    font-weight: 800;
+    color: #262626;
+    padding-top: 20;
+    font-size: 25px;
+}
+.furnilgimg img{
+width:49.5rem;
+/* max-width: 80%; */
+}
+.furnilgimg p{width: 50rem;
+    font-size: 12px;background-color: #f7f8f9;padding: 15px;margin-top: 20px;
+    /* text-align: center; */
+    }
+
+
+    
+.furniimgs{
+
+}
+.tb,.tbd,.tbx{max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 25px; */
+    margin-top: 80px;
+}
+.row{
+}
+.tcolimg{
+    object-fit: cover;
+    /* width: 16rem; */
+
+}
+.tcolanchor{
+    /* text-align: center; */
+    font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,Times New Roman;
+    font-size: 14px;
+     height: auto; 
+    /* margin: 10px 0; */
+    /* min-height: 45px; */
+    line-height: 35px;
+    letter-spacing: .005px;font-weight: 700;
+    color: #262626;
+    padding-left: 50px;
+}
+.furniarticleh1 h1{
+    text-align: center;
+    font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,"Times New Roman";
+    font-style: italic;
+    font-weight: 800;
+    color: #262626;
+    padding-top: 20;
+    font-size: 30px;
+}
+
+.furniarticle{
+   
+}
+.furnigrid{
+    /* width:100%; */
+    display: grid;grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+.furnishop {
+    width: 300px;
+   
+}
+.furnishop img{
+    max-width: 24.3rem;
+    object-fit: cover;
+    height: auto;cursor: pointer;
+}
+.furniarticle .furnishop h2{
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .005px;
+    /* margin-top: 20px; */
+    margin-bottom: 15px;font-style: oblique;
+    /* display: block; */
+    font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,Times New Roman;
+    color: #262626;
+}
+.furnishop p{    text-align: center;
+    font-size: 13px;
+    letter-spacing: .025px;
+    line-height: 18px;
+    /* text-align: center; */
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+    color: #110d0d;
+}
+.furnishop a{
+    margin: 20px auto 50px;
+    font-size: 13px;
+    letter-spacing: .11px;
+      /* display: inline-block; */
+    font-family: "SofiaProBold",Arial,Rockwell,Georgia,Times New Roman;
+    color: #196d79;
+    text-decoration: underline;
+    text-transform: uppercase;font-weight: 600;
+    padding-left: 120px;
+    line-height: 1.5;
+    line-break: strict;
+}
+.sliderWidth{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0;margin-top: 0;    gap: 2;
+
+}
+.sliderimggp{
+
+    padding: 0;margin-top: 0;    gap: 2;
+
+}
+.sliderimg{
+   width:20%;
+    margin: 0 auto;
+    padding: 0;margin-top: 0;    gap: 2;
+
+}
+.sliderimg img{
+    width: 15rem;object-fit: cover;
+    margin: 0 auto;
+    padding: 0;margin-top: 0;
+    gap: 2;height: 250px;
+}
+.sliderimg p{
+text-align: center;
+}
+.lgtxtfurni{
+    max-width: 800px;margin: 0 auto;
+}
+.lgtxtfurni p{
+    font-weight: normal;
+      position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.025px;
+    color: #383737;
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+}
+.footerimg img{
+   max-width: 986px;
+     min-width: 320px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 50px;
+    cursor:auto;
+}

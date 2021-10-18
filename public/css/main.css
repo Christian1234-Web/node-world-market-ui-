@@ -1,0 +1,265 @@
+*{
+    margin: 0;padding: 0; 
+       font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;font-size: 15px;
+  letter-spacing: .025px;
+  line-height: 18px;
+  box-sizing: border-box;
+  }
+  img, button{
+      cursor: pointer;
+  }
+  section{
+    max-width: 1000px;
+    min-width: 320px;
+  }
+  body{
+
+  }
+  .container{
+    width: 100%;
+    max-width: 1000px;
+     min-width: 320px;
+    margin: 0 auto;
+  }
+  a{
+    text-align: center;
+    color: #6d6d6d;
+   font-size: 14px;
+   letter-spacing: .025px;
+   line-height: 18px;text-decoration: none;
+}
+ .storeNav{
+    position: sticky;
+    top: 0%;
+   display: flex;justify-content: space-between;align-items: center;
+   width: 100%;
+   /* margin: 0 auto; */
+   background: #f7f8f9;
+   max-width: 1200px;
+   z-index: 999999;
+   height: 40px;
+   padding: 5px;
+   font-size: 10px;
+   z-index: 1;
+ } 
+ .storeNav a{
+    margin: 20px; font-size: 12px;
+ }
+ .navDropD a{
+    color: #554f4f;font-size: 12px;
+ }
+ .navDropD a:hover{
+    color: #12aac2;
+ }
+ ul{
+   display: flex;
+  justify-content: space-between;align-items: center;
+}
+li{list-style: none;}
+.worldlogo{display: flex; justify-content: space-between;align-items: center;}
+.logup{
+  /* display: flex;justify-content: space-between;align-items: center; */
+}
+#mystore{
+    border: none; background: #f7f8f9;font-size: 11px;    color: #6d6d6d;
+
+}
+#serachbox{
+    border: 1px solid #ebd9d9; 
+    background-color: 1px solid #ebd9d9; 
+    outline: none;   letter-spacing: .12em;
+    font-size: 12px;
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+     width: 240px; 
+     height: 40px;    transition: width 1s;
+    position: relative;
+    z-index: 1003;
+    color: #262626;
+    padding: 5px;
+}
+.navmem{
+background-color: #f4faf8; text-align: center;font-size: 11px; border-top: 1px solid #d8f7ec;
+}
+#mem{
+    font-size: 13px;font-weight: 700;     width: 100%;
+padding: 5px;
+}
+.memlink a{
+    text-decoration: underline;font-family: "SofiaProRegular",sans-serif;
+    color: #196d79 !important;
+    text-decoration: underline;
+    border: none;
+    background: transparent;font-size: 12px;padding-left: 10px;
+}
+.logo img{
+    object-fit: cover;
+}
+.extraimg img{
+    max-width: 1000px;
+    min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;
+}
+.freshhone h2{
+    text-align: center;
+    /* font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,"Times New Roman"; */
+    font-style: italic;
+    font-weight: 800;
+    color: #262626;
+    padding-top: 20;
+    font-size: 30px;
+}
+.freshimggp{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+}
+.freshsmtxt{
+    display: block;
+    text-align: center;
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+    color: #262626;
+    padding-top: 10px;
+}
+.christmas img{
+    padding-top: 40px;
+    max-width: 1000px;
+    min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;
+}
+.chriscnt{
+ 
+}
+.chriscnt h1,.newteste h2{
+    text-align: center;
+    /* font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,"Times New Roman"; */
+    font-style: italic;
+    font-weight: 800;
+    color: #262626;
+    /* margin-top: 20; */
+    font-size: 34px;
+    padding-top: 20px;
+}
+.chriscnt p,.newteste p{
+    text-align: center;
+  line-height: 1.5;
+    font-weight: 600;
+
+    font-family: "Sentinel-MediumItal",Arial,Rockwell,Georgia,Times New Roman;
+    color: #262626; 
+    font-size:20px;
+    padding-top: 10px;
+}
+.chriscnt button,.readbtn,.gallerygp button{display: flex;
+    margin: 20px auto 50px;
+    font-size: 13px;
+    letter-spacing: .11px;
+    height: 42px;
+    padding: 11px 40px;    background-color: #196d79;
+   justify-content: center;
+   border: none;
+   color: #f4faf8;font-weight: 700;font-size: 12px;
+}
+
+.intro{width:100% ;
+    display: grid;grid-template-columns: repeat(3,1fr);gap: 20px;
+}
+
+.introcnt img{max-width: 100%;
+    object-fit: cover;
+    height: auto;cursor: pointer;
+}
+.intro .introcnt h3{
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: .005px;
+    margin-top: 20px;
+    margin-bottom: 15px;font-style: oblique;
+    /* display: block; */
+    font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,Times New Roman;
+    color: #262626;
+}
+.introcnt p{
+    font-size: 13px;
+    letter-spacing: .025px;
+    line-height: 18px;text-align: center;
+    font-family: "SofiaProRegular",Arial,Rockwell,Georgia,Times New Roman;
+    color: #262626;
+}
+.introcnt a{
+    margin: 20px auto 50px;
+    font-size: 13px;
+    letter-spacing: .11px;
+      /* display: inline-block; */
+    font-family: "SofiaProBold",Arial,Rockwell,Georgia,Times New Roman;
+    color: #196d79;
+    text-decoration: underline;
+    text-transform: uppercase;font-weight: 600;
+    padding-left: 110px;
+    line-height: 1.5;
+    line-break: strict;
+}
+.newteste{
+    display: grid;grid-template-columns: repeat(2,1fr);gap: 20px;width: 100%;padding-top: 40px;cursor: pointer;
+}
+.newtastegp img{
+    /* padding-top: 40px; */
+    width: 34rem;
+    min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;
+}.gallery img{
+max-width: 1000px; min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;
+}
+.gallerygp h4{
+    text-align: center;
+    /* font-family: "Sentinel-Bold",Arial,Rockwell,Georgia,"Times New Roman"; */
+    font-style: italic;
+    font-weight: 800;
+    color: #262626;
+    /* margin-top: 20; */
+    font-size: 40px;
+    padding-top: 20px;
+}
+.gallerygp p{
+    text-align: center;
+    line-height: 1.5;
+      font-weight: 600;
+  
+      font-family: "Sentinel-MediumItal",Arial,Rockwell,Georgia,Times New Roman;
+      color: #262626; 
+      font-size:18px;
+      padding-top: 10px;
+}
+#galleryanchsm {
+    color: #196d79;font-size: 20px;
+}#galleryanchlg {
+    color: #196d79;font-size: 34px;
+}
+.lgtxt{
+    max-width: 800px;margin: 0 auto;
+}
+.lgtxt p{font-family: "SofiaProRegular",Arial,Rockwell,Georgia,"Times New Roman";
+    font-weight: normal;
+    color: #262626;    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;    word-wrap: break-word;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.025px;
+}
+.footerimg img{
+    max-width: 986px; min-width: 320px;
+object-fit: cover;
+    margin: 0 auto;padding-top: 50px;cursor:auto;
+}
+.furnisld{max-width: 600px; 
+    /* margin: 0 auto; */
+margin-left: 100px;
+}

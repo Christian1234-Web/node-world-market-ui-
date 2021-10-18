@@ -1,0 +1,158 @@
+{
+    "furnitureProducts": [{
+                "id":1,
+                "image": "/assets/furn-img1.jpg",
+                 "name": "Living Furniture"
+                
+    }, {
+        "id":2,
+        "image": "/assets/furni-img2.jpg",
+                 "name": "Dining Room Furniture"
+    }, {
+        "id":3,
+        "image": "/assets/furni-img3.jpg",
+                 "name": "Bedroom Furniture"
+    }, {
+        "id":4,
+        "image": "/assets/furn-img1.jpg",
+                 "name": "Living Furniture"
+    }, {"id":5,
+        "image": "/assets/furni-img2.jpg",
+                 "name": "Dining Room Furniture"
+    }, {"id":6,
+        "image": "/assets/furni-img3.jpg",
+                 "name": "Bedroom Furniture"
+    }, {"id":7,
+        "image": "/assets/furni-img2.jpg",
+        "name": "Dining Room Furniture"
+    }, {"id":8,
+        "image": "/assets/furni-img3.jpg",
+                 "name": "Bedroom Furniture"
+    }, {"id":9,
+        "image": "/assets/furn-img1.jpg",
+        "name": "Living Furniture"
+    }, {"id":10,
+        "image": "/assets/furni-img3.jpg",
+                 "name": "Bedroom Furniture"
+    }, {"id":11,
+        "image": "/assets/furn-img1.jpg",
+                 "name": "Living Furniture"
+    }, {"id":12,
+        "image": "/assets/furni-img2.jpg",
+        "name": "Dining Room Furniture"
+    }, {
+        "id":13,
+        "image": "/assets/furni-img3.jpg",
+                 "name": "Bedroom Furniture"
+    }
+],
+    "outdoorsProducts": [
+        {
+        "id":1,
+        "image": "/assets/outdo-img1.jpg",
+                 "name": "Outdoor Furniture"
+}, {
+    "id":2,
+    "image": "/assets/outdo-img2.jpg",
+             "name": "Outdoor Best Sellers"
+}, {
+    "id":3,
+    "image": "/assets/outdo-img3.jpg",
+             "name": "Shop All Outdoor"
+}, {
+    "id":4,
+    "image": "/assets/outdo-img1.jpg",
+                 "name": "Outdoor Furniture"
+}, {
+    "id":5,
+    "image": "/assets/outdo-img2.jpg",
+             "name": "Outdoor Best Sellers"
+}, {
+    "id":6,
+    "image": "/assets/outdo-img3.jpg",
+             "name": "Shop All Outdoor"
+}, {
+    "id":7,
+    "image": "/assets/outdo-img1.jpg",
+    "name": "Outdoor Furniture"
+}, {
+    "id":8,
+    "image": "/assets/outdo-img2.jpg",
+    "name": "Outdoor Best Sellers"
+}, {
+    "id":9,
+    "image": "/assets/outdo-img1.jpg",
+    "name": "Outdoor Best Sellers"
+}, {
+    "id":10,
+    "image": "/assets/outdo-img3.jpg",
+    "name": "Shop All Outdoor"
+}, {
+    "id":11,
+    "image": "/assets/outdo-img1.jpg",
+    "name": "Outdoor Best Sellers"
+}, {
+    "id":12,
+    "image": "/assets/outdo-img2.jpg",
+             "name": "Outdoor Best Sellers"
+}, {
+    "id":13,
+    "image": "/assets/outdo-img3.jpg",
+             "name": "Shop All Outdoor"
+}
+],
+"rugsProducts": [
+    {
+        "id":1,
+        "image": "/assets/rugs-img1.jpg",
+                 "name": "Shop All Rugs"
+}, {
+    "id":2,
+    "image": "/assets/rugs-img2.jpg",
+             "name": "Large Area Rugs"
+}, {
+    "id":3,
+    "image": "/assets/rugs-img3.jpg",
+             "name": "Rugs Best Sellers"
+}, {
+    "id":4,
+    "image": "/assets/rugs-img2.jpg",
+    "name": "Large Area Rugs"
+}, {
+    "id":5,
+    "image": "/assets/rugs-img3.jpg",
+    "name": "Rugs Best Sellers"
+}, {
+    "id":6,
+    "image": "/assets/rugs-img1.jpg",
+                 "name": "Shop All Rugs"
+}, {
+    "id":7,
+    "image": "/assets/rugs-img2.jpg",
+             "name": "Large Area Rugs"
+}, {
+    "id":8,
+    "image": "/assets/rugs-img3.jpg",
+    "name": "Rugs Best Sellers"
+}, {
+    "id":9,
+    "image": "/assets/rugs-img2.jpg",
+    "name": "Large Area Rugs"
+}, {
+    "id":10,
+    "image": "/assets/rugs-img1.jpg",
+    "name": "Shop All Rugs"
+}, {
+    "id":11,
+    "image": "/assets/rugs-img3.jpg",
+    "name": "Rugs Best Sellers"
+}, {
+    "id":12,
+    "image": "/assets/rugs-img2.jpg",
+    "name": "Large Area Rugs"
+}, {
+    "id":12,
+    "image": "/assets/rugs-img1.jpg",
+                 "name": "Shop All Rugs"
+}]
+}

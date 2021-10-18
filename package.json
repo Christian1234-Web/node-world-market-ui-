@@ -1,0 +1,14 @@
+{
+  "name": "sever_exprs",
+  "version": "1.0.0",
+  "description": "creating package file",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "christian",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
